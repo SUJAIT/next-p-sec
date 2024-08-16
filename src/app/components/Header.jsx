@@ -27,6 +27,10 @@ const links = [
     {
         title : "Post",
         path : "/posts"
+    },
+    {
+        title : "Meals",
+        path : "/meals"
     }
 
 ]
