@@ -2,7 +2,6 @@
 import React from 'react'
 
 
-
 // dynamicData Get Function Start
 const getDetailsPost = async (id) => {
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
@@ -34,7 +33,7 @@ const postDetails = async ({params}) => {
     const {title,body} = await getDetailsPost(params.id)
 
   return (
-    <div>
+    <div >
       <h6>Title : {title}</h6>
       <h5>Body : {body}</h5>
     </div>
