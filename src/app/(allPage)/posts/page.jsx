@@ -3,7 +3,12 @@ import { getPosts } from '@/services/postApi';
 import Link from 'next/link';
 import React from 'react'
 
-
+export const metadata = {
+    title : {
+            absolute:"Post"
+    },
+    description : "Post Page"
+  }
 
 
 const page = async () => {

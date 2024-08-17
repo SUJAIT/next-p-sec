@@ -6,10 +6,12 @@ import Header from "./components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Next Hero - App",
+  title: {
+    default:"Next Hero",
+    template:"%s | Next Hero"
+  },
   description: "Nextjs is a Supper Power",
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
